@@ -1,0 +1,29 @@
+﻿@model List<Guid>
+@{Layout = null;
+}
+<ul>
+    @foreach (Guid g in Model)
+    {
+        <li>@g</li>
+    }
+</ul>
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.js"
+        integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+        crossorigin="anonymous"></script>
+@foreach (Guid g in Model)
+{
+<script type="text/javascript">
+            $.ajax({
+                url: '/tests/scenario7?k=@g',
+                method: 'GET',
+            }).fail(function (jqXHR, textStatus) {
+            });
+    $.ajax({
+        url: '/tests/scenario8?k=@g',
+        method: 'GET',
+    }).fail(function (jqXHR, textStatus) {
+    });
+</script>
+}
