@@ -10,15 +10,13 @@ namespace WPFDBCLM.BusinessModel
     {
         public int Id { get; }
         public string Name { get; }
-        public DateTime CreationDate { get; }
 
         public BlogPostCollectionModel BlogPosts { get; }
 
-        public BlogPostCategoryModel(int id, string name, DateTime creationDate)
+        public BlogPostCategoryModel(int id, string name)
         {
             Id = id;
             Name = name;
-            CreationDate = creationDate;
         }
     }
 

@@ -13,6 +13,6 @@ namespace WPFDBCLM.DataAccess.Repositories
         /// Liste all categories
         /// </summary>
         /// <returns></returns>
-        BlogPostCategoryCollectionModel ListAll();
+        List<BlogPostCategoryModel> ListAll();
     }
 }

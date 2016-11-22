@@ -9,6 +9,6 @@ namespace WPFDBCLM.BusinessLogic.Services
 {
     public interface IBlogPostCategoryService
     {
-        BlogPostCategoryCollectionModel ListAll();
+        List<BlogPostCategoryModel> ListAll();
     }
 }

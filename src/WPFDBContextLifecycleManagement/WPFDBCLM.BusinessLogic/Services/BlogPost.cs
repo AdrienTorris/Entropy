@@ -21,5 +21,10 @@ namespace WPFDBCLM.BusinessLogic.Services
         {
             throw new NotImplementedException();
         }
+
+        public Guid? Create(BlogPostModel bp)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

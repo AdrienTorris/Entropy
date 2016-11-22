@@ -6,7 +6,7 @@
     /// <summary>
     /// Implement here the system methods to
     /// </summary>
-    public sealed partial class AddBlogPostController : BaseController, IController
+    public sealed partial class AddBlogPostController : BaseController//, IController
     {
         #region Pprts & Ctor
 
@@ -41,14 +41,6 @@
             _blogPostService = new BlogPostService(dbc);
             _blogPostCategoryService = new BlogPostCategoryService(dbc);
         }
-
-        /// <summary>
-        /// The good way to call a method
-        /// </summary>
-        /// <typeparam name="T">Type of return you expect</typeparam>
-        /// <param name="ope">Name of operation your need to execute</param>
-        /// <returns></returns>
-        public T Invoke<T>(Enum ope) => base.Invoke<T>(typeof(AddBlogPostController), ope);
 
         #endregion
     }

@@ -83,4 +83,38 @@ Global
 		{67B567BA-503D-4242-B931-4C626D42BC5D} = {F257B1F7-B8D4-484D-9DE6-83A698B0FEA0}
 		{F15B0567-D786-4682-9023-0805B300B952} = {F257B1F7-B8D4-484D-9DE6-83A698B0FEA0}
 	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://dsvpaeitfs:8080/tfs/projetstransverses
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = WPFDBCLM.BusinessLogic\\WPFDBCLM.BusinessLogic.csproj
+		SccProjectTopLevelParentUniqueName1 = WPFDBContextLifecycleManagementSolution.sln
+		SccProjectName1 = WPFDBCLM.BusinessLogic
+		SccLocalPath1 = WPFDBCLM.BusinessLogic
+		SccProjectUniqueName2 = WPFDBCLM.BusinessModel\\WPFDBCLM.BusinessModel.csproj
+		SccProjectTopLevelParentUniqueName2 = WPFDBContextLifecycleManagementSolution.sln
+		SccProjectName2 = WPFDBCLM.BusinessModel
+		SccLocalPath2 = WPFDBCLM.BusinessModel
+		SccProjectUniqueName3 = WPFDBCLM.Controllers\\WPFDBCLM.Controllers.csproj
+		SccProjectTopLevelParentUniqueName3 = WPFDBContextLifecycleManagementSolution.sln
+		SccProjectName3 = WPFDBCLM.Controllers
+		SccLocalPath3 = WPFDBCLM.Controllers
+		SccProjectUniqueName4 = WPFDBCLM.DataAccess.EntityFramework\\WPFDBCLM.DataAccess.EntityFramework.csproj
+		SccProjectTopLevelParentUniqueName4 = WPFDBContextLifecycleManagementSolution.sln
+		SccProjectName4 = WPFDBCLM.DataAccess.EntityFramework
+		SccLocalPath4 = WPFDBCLM.DataAccess.EntityFramework
+		SccProjectUniqueName5 = WPFDBCLM.DataAccess\\WPFDBCLM.DataAccess.csproj
+		SccProjectTopLevelParentUniqueName5 = WPFDBContextLifecycleManagementSolution.sln
+		SccProjectName5 = WPFDBCLM.DataAccess
+		SccLocalPath5 = WPFDBCLM.DataAccess
+		SccProjectUniqueName6 = WPFDBCLM.Infrastructure\\WPFDBCLM.Infrastructure.csproj
+		SccProjectTopLevelParentUniqueName6 = WPFDBContextLifecycleManagementSolution.sln
+		SccProjectName6 = WPFDBCLM.Infrastructure
+		SccLocalPath6 = WPFDBCLM.Infrastructure
+		SccProjectUniqueName7 = WPFDBCLM.Presentation.UI.WPF\\WPFDBCLM.Presentation.UI.WPF.csproj
+		SccProjectTopLevelParentUniqueName7 = WPFDBContextLifecycleManagementSolution.sln
+		SccProjectName7 = WPFDBCLM.Presentation.UI.WPF
+		SccLocalPath7 = WPFDBCLM.Presentation.UI.WPF
+	EndGlobalSection
 EndGlobal

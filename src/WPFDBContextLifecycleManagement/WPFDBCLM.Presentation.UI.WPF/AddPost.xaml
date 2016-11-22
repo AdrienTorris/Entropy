@@ -14,11 +14,17 @@
                      DisplayMemberPath="Name" 
                      SelectedValuePath="Id" 
                      Margin="10"
+                     Name="cb_Category"
                      />
                 <TextBox 
                     Name="txt_Title"
                     Text="Title"
                      Margin="10"
+                    />
+                <Button 
+                    Content="Validate" 
+                    Click="Button_Click" 
+                    Margin="10" 
                     />
             </StackPanel>
             

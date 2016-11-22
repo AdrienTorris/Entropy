@@ -19,12 +19,8 @@
             [Description("List all undeleted categories ordered by name alphabetical asc")]
             ListAllCategories = 1,
             [Description("Create new blog post")]
-            CreateNewPost = 2
+            Create = 2
         }
-
-        #region Post methods
-
-        #endregion
 
         #region Get methods
 
@@ -32,9 +28,18 @@
         /// List all categories available for a new post
         /// </summary>
         /// <returns></returns>
-        public BlogPostCategoryCollectionModel ListAllCategories()
+        public List<BlogPostCategoryModel> ListAllCategories()
         {
             return _blogPostCategoryService.ListAll();
+        }
+
+        #endregion
+
+        #region Post methods
+
+        public Guid? Create(BlogPostModel bp)
+        {
+            return _blogPostService.Create(bp);
         }
 
         #endregion

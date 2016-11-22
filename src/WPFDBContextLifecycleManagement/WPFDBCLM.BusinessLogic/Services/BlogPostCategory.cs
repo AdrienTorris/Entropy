@@ -18,7 +18,7 @@ namespace WPFDBCLM.BusinessLogic.Services
             _repo = new BlogPostCategoryRepository(dbc);
         }
 
-        public BlogPostCategoryCollectionModel ListAll()
+        public List<BlogPostCategoryModel> ListAll()
         {
             return _repo.ListAll();
         }

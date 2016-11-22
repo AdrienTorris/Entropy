@@ -12,14 +12,18 @@ namespace WPFDBCLM.DataAccess.EntityFramework
     using System;
     using System.Collections.Generic;
     
-    public partial class BlogPost
+    public partial class BlogCategory
     {
-        public System.Guid Id { get; set; }
-        public string Title { get; set; }
-        public System.DateTime CreationDate { get; set; }
-        public System.DateTime LastUpdateDate { get; set; }
-        public int BlogCategoryId { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public BlogCategory()
+        {
+            this.Posts = new HashSet<BlogPost>();
+        }
     
-        public virtual BlogCategory Category { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
+    
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<BlogPost> Posts { get; set; }
     }
 }
