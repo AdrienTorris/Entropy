@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace WPFDBCLM.Controllers.Extensions
+﻿namespace WPFDBCLM.Controllers.Extensions
 {
+    using System;
+
     /// <summary>
     /// Methods availables for all the controllers
     /// </summary>

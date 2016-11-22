@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace WPFDBCLM.BusinessModel
+﻿namespace WPFDBCLM.BusinessModel
 {
+    using System;
+    using System.Collections.Generic;
+
     public sealed class BlogPostModel
     {
         public Guid Id { get; }

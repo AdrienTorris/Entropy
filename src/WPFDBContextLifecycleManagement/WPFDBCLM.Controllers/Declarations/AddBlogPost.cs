@@ -6,7 +6,7 @@
     /// <summary>
     /// Implement here the system methods to
     /// </summary>
-    public sealed partial class AddBlogPostController : BaseController//, IController
+    public sealed partial class AddBlogPostController : BaseController
     {
         #region Pprts & Ctor
 
