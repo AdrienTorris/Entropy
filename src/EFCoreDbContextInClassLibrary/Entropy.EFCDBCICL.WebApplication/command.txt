@@ -1,0 +1,1 @@
+﻿dotnet ef dbcontext scaffold "Server=_SERVER;Database=_DATABASE_NAME;Trusted_Connection=False;MultipleActiveResultSets=true;user id=_USERID;password=_PASSWORD;" Microsoft.EntityFrameworkCore.SqlServer -o YOUR_BASE_PATH\src\EFCoreDbContextInClassLibrary\Entropy.EFCDBCICL.DataAccess.EntityFramework\Models
