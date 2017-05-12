@@ -23,7 +23,7 @@ namespace Entropy.JsonAbstraction.UnitTests
 
             try
             {
-                filepath = @"C:\Users\a.torris\Documents\visual studio 2017\Projects\JsonAbstractionEntropySolution\Entropy.JsonAbstraction.UnitTests\bin\Debug\netcoreapp1.1\jsons/sample1.json";
+                filepath = @"jsons/sample1.json";
 
                 Assert.IsTrue(File.Exists(filepath));
 
@@ -88,7 +88,7 @@ namespace Entropy.JsonAbstraction.UnitTests
 
             try
             {
-                filepath = @"C:\Users\a.torris\Documents\visual studio 2017\Projects\JsonAbstractionEntropySolution\Entropy.JsonAbstraction.UnitTests\bin\Debug\netcoreapp1.1\jsons/sample1.json";
+                filepath = @"jsons/sample1.json";
 
                 Assert.IsTrue(File.Exists(filepath));
 
