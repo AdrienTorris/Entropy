@@ -1,0 +1,50 @@
+﻿{
+  "declarations": [
+    {
+      "id": "C70C2A4E-98D8-46A1-ABFF-1842953AF132",
+      "type": 1
+    },
+    {
+      "id": "026EEAC4-7418-4F6E-9430-1CD2F2117924",
+      "type": 2
+    }
+  ],
+  "implementations": [
+    {
+      "id": "C70C2A4E-98D8-46A1-ABFF-1842953AF132",
+      "content": [
+        {
+          "title": "title",
+          "short_desc": "short description content",
+          "description": "description content"
+        }
+      ]
+    },
+    {
+      "id": "026EEAC4-7418-4F6E-9430-1CD2F2117924",
+      "content": [
+        {
+          "page_number": 1,
+          "page_size": 15,
+          "posts": [
+            {
+              "title": "title 1",
+              "short_desc": "short desc post 1",
+              "position": 1
+            },
+            {
+              "title": "title 2",
+              "short_desc": "short desc post 2",
+              "position": 2
+            },
+            {
+              "title": "title 3",
+              "short_desc": "short desc post 3",
+              "position": 3
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
