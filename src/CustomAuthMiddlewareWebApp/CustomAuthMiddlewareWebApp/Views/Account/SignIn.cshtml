@@ -1,0 +1,9 @@
+﻿@model CustomAuthMiddlewareWebApp.Models.AccountViewModels.SignInViewModel
+@{
+}
+
+<form asp-controller="Account" asp-action="SignIn" method="post">
+    <input asp-for="Username" />
+    <input asp-for="Password" />
+    <button type="submit">Sign In</button>
+</form>
