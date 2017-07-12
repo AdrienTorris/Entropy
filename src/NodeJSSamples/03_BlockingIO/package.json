@@ -1,0 +1,10 @@
+{
+  "name": "03_blockingio",
+  "version": "0.0.0",
+  "description": "Blocking I/O - Read package.json synchonously",
+  "main": "app.js",
+  "author": {
+    "name": "Adrien Torris",
+    "email": ""
+  }
+}

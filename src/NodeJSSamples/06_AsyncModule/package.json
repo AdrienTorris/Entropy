@@ -1,0 +1,13 @@
+{
+  "name": "06_asyncmodule",
+  "version": "0.0.0",
+  "description": "Play with the usefull and popular async module",
+  "main": "app.js",
+  "author": {
+    "name": "Adrien Torris",
+    "email": ""
+  },
+  "dependencies": {
+    "async": "^2.5.0"
+  }
+}

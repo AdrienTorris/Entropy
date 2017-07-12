@@ -1,0 +1,10 @@
+{
+  "name": "01_helloworld",
+  "version": "0.0.0",
+  "description": "Hello World",
+  "main": "app.js",
+  "author": {
+    "name": "Adrien Torris",
+    "email": ""
+  }
+}

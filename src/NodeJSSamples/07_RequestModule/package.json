@@ -1,0 +1,13 @@
+{
+  "name": "07_requestmodule",
+  "version": "0.0.0",
+  "description": "Play with the usefull and popular request module",
+  "main": "app.js",
+  "author": {
+    "name": "Adrien Torris",
+    "email": ""
+  },
+  "dependencies": {
+    "request": "^2.81.0"
+  }
+}

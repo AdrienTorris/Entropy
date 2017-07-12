@@ -1,0 +1,10 @@
+{
+  "name": "04_nonblockingio",
+  "version": "0.0.0",
+  "description": "Non-Blocking I/O - Read package.json asynchonously",
+  "main": "app.js",
+  "author": {
+    "name": "Adrien Torris",
+    "email": ""
+  }
+}
