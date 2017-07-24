@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= Blog
+  p Welcome to our blog
+  ul
+    each post, i in posts
+        li
+            p #{post.title}
+            a(href='/blog/' + post.id) Link

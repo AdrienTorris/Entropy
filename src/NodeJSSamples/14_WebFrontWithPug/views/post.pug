@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= Blog
+  p Welcome to our blog
+  
+  h1 #{post.title}
+  p #{post.content}
+
+  a(href='/blog') Retour aux articles
