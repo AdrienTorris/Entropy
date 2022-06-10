@@ -1,6 +1,7 @@
 ﻿namespace DynamicProxyLab.Api.Services
 {
-    public class IWeatherService
+    public interface IWeatherService
     {
+        WeatherForecast[] GetForecast();
     }
 }
