@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32611.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeriodicTimer.WebApp", "PeriodicTimer.WebApp\PeriodicTimer.WebApp.csproj", "{0395C8EE-E9F7-4DF5-B379-B6293C624747}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeriodicTimerLab.ConsoleApp", "PeriodicTimerLab.ConsoleApp\PeriodicTimerLab.ConsoleApp.csproj", "{0E130A1A-D028-4E2E-9257-CD99A69BD8FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0395C8EE-E9F7-4DF5-B379-B6293C624747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0395C8EE-E9F7-4DF5-B379-B6293C624747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0395C8EE-E9F7-4DF5-B379-B6293C624747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0395C8EE-E9F7-4DF5-B379-B6293C624747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E130A1A-D028-4E2E-9257-CD99A69BD8FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E130A1A-D028-4E2E-9257-CD99A69BD8FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E130A1A-D028-4E2E-9257-CD99A69BD8FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E130A1A-D028-4E2E-9257-CD99A69BD8FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB6D8CEA-1D39-40A2-BB53-806CE869A8EA}
+	EndGlobalSection
+EndGlobal
